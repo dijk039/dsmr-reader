@@ -189,6 +189,8 @@ Only want to restore the database?
 
 - Stop the application first with ``sudo supervisorctl stop all``. This will disconnect it from the database as well.
 
+- Importing the data could take a long time. It took MySQL 15 minutes to import nearly 3 million readings, from a compressed backup, on a RaspberryPi 3. 
+
 For **PostgreSQL** restores::
 
     sudo sudo -u postgres dropdb dsmrreader
@@ -209,12 +211,12 @@ For **MySQL** restores::
     sudo mysqladmin drop dsmrreader
     
     # Either restore an uncompressed (.sql) backup:
-    cat <PATH-TO-MYSQL-BACKUP.sql.gz> | sudo mysql -D dsmrreader --defaults-file=/etc/mysql/debian.cnf
+    cat <PATH-TO-MYSQL-BACKUP.sql.gz> | sudo mysql --defaults-file=/etc/mysql/debian.cnf -D dsmrreader
     
     # OR
     
     # Restore a compressed (.gz) backup with:
-    zcat <PATH-TO-MYSQL-BACKUP.sql.gz> | sudo mysql -D dsmrreader --defaults-file=/etc/mysql/debian.cnf
+    zcat <PATH-TO-MYSQL-BACKUP.sql.gz> | sudo mysql --defaults-file=/etc/mysql/debian.cnf -D dsmrreader
 
 
 - Start the application again with ``sudo supervisorctl start all``.

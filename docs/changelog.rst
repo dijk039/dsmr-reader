@@ -21,6 +21,11 @@ Please make sure you have a fresh **database backup** before upgrading! Upgradin
 v1.6.0 - 2017-xx-xx
 ^^^^^^^^^^^^^^^^^^^
 
+.. warning::
+
+    Support for ``MySQL`` has been **deprecated** since ``DSMR-reader v1.6`` and will be discontinued completely in a later release.
+    Please use a PostgreSQL database instead. Users already running MySQL will be supported in migrating at a later moment.
+
 .. note::
 
     **Change in API:**

@@ -37,29 +37,6 @@ msgid "Contents"
 msgstr "Inhoud"
 
 #: ../../screenshots.rst:11
-msgid "Solar panels & electricity returned"
-msgstr "Zonnepanelen & teruglevering electriciteit"
-
-#: ../../screenshots.rst:12
-msgid ""
-"Note that **I do not have solar panels at home**, but the application however "
-"**does support plotting any electricity returned**."
-msgstr ""
-"Wees ervan bewust dat **ik thuis geen zonnepanelen heb**, maar dat de "
-"applicatie daar **wel ondersteuning voor heeft qua weergave teruglevering "
-"elektriciteit**."
-
-#: ../../screenshots.rst:14
-msgid ""
-"Therefor there aren't always graphs of them in the screenshots, but the users "
-"who do have them, will have additional green graphs rendered in the "
-"application."
-msgstr ""
-"Daarom staan er daar niet altijd grafieken van in deze screenshots, maar de "
-"gebruikers die ze wel thuis hebben, zullen overal een extra groene grafiek "
-"zien binnen de applicatie."
-
-#: ../../screenshots.rst:18
 msgid "Dashboard"
 msgstr "Dashboard"
 
@@ -154,8 +131,8 @@ msgstr ""
 #: ../../screenshots.rst:84
 msgid ""
 "The application has quite some features, such are temperature tracking, "
-"automated backups and Dropbox intergration. This page displays the status of "
-"them all."
+"automated backups and Dropbox intergration. This page displays the status"
+" of them all."
 msgstr ""
 "De applicatie heeft behoorlijk wat features, zoals buitentemperatuur "
 "bijhouden, geautomatiseerde back-ups en Dropbox-integratie. Op deze pagina kun "
