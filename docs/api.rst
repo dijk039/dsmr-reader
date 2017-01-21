@@ -58,9 +58,14 @@ This allows you to insert a raw telegram, read from your meter remotely, into th
 
 Parameters
 ~~~~~~~~~~
+
+.. note::
+
+    Since ``v1.6`` this call now returns ``HTTP 201`` instead of ``HTTP 200`` when successful.
+
 - Method: ``POST``
 - Data: ``telegram`` (as raw string containing all linefeeds ``\n``, and carriage returns ``\r``, as well!)
-- Status code returned: ``HTTP 200`` on success, any other on failure.
+- Status code returned: ``HTTP 201`` on success, any other on failure.
 
 Example
 ~~~~~~~
@@ -103,8 +108,8 @@ Example
         data={'telegram': telegram_string},
     )
 
-    # You will receive a status 200 when successful.
-    if response.status_code != 200:
+    # You will receive a status 201 when successful.
+    if response.status_code != 201:
         # Or you will find the error (hint) in the reponse body on failure.
         print('Error: {}'.format(response.text))
 
@@ -221,8 +226,8 @@ Client file in ``/home/dsmr/dsmr_datalogger_api_client.py``::
             data={'telegram': telegram},
         )
 
-        # You will receive a status 200 when successful.
-        if response.status_code != 200:
+        # You will receive a status 201 when successful.
+        if response.status_code != 201:
             # Or you will find the error (hint) in the response body on failure.
             print('[!] Error: {}'.format(response.text))
 
