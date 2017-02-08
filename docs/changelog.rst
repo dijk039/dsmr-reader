@@ -37,6 +37,7 @@ v1.6.0 - 2017-xx-xx
 **Tickets resolved in this release:**
 
 - API request should return HTTP 201 instead of HTTP 200 (`#211 <https://github.com/dennissiemensma/dsmr-reader/issues/211>`_).
+- Support for DSMR-firmware v5.0 (`#221 <https://github.com/dennissiemensma/dsmr-reader/issues/221>`_).
 
 
 
