@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DSMR Reader v1.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-08 20:09+0100\n"
-"PO-Revision-Date: 2017-01-26 21:32+0100\n"
+"POT-Creation-Date: 2017-02-09 20:50+0100\n"
+"PO-Revision-Date: 2017-02-08 21:43+0100\n"
 "Last-Translator: Dennis Siemensma <github@dennissiemensma.nl>\n"
 "Language-Team: Dennis Siemensma <github@dennissiemensma.nl>\n"
 "Language: nl\n"
@@ -753,6 +753,18 @@ msgstr "Meest recente meting"
 msgid "No data."
 msgstr "Geen gegevens."
 
+msgid "Click for more information"
+msgstr "Klik hier voor meer informatie"
+
+msgid "The telegrams are either read from the DSMR_DATALOGGER process or sent via the API."
+msgstr "De telegrammen worden ofwel door het DSMR_DATALOGGER process gelezen of komen binnen via de API."
+
+msgid "Each telegram read from your smart meter is stored and queued for processing first."
+msgstr "Elke telegram uit je slimme meter wordt eerst alleen opgeslagen voor verwerking."
+
+msgid "Each new telegram is (only) used to display the latest reading, in the top right corner of the Dashboard page."
+msgstr "Elk nieuw telegram wordt (alleen) initieel gebruikt om de laatste meting te tonen in het Dashboard, rechts bovenin de pagina."
+
 msgid "Telegram processing"
 msgstr "Telegramverwerking"
 
@@ -761,6 +773,15 @@ msgstr "Er zijn te veel onverwerkte telegrammen."
 
 msgid "Unprocessed telegrams"
 msgstr "Onverwerkte telegrammen"
+
+msgid "This indicates how many stored telegrams are waiting to be processed."
+msgstr "Dit geeft aan hoeveel opgeslagen telegrammen er wachten op verwerking."
+
+msgid "This should reset around each minute mark, depending on whether you've enabled grouping readings in the configuration."
+msgstr "Deze teller zou ongeveer elke minuut moeten resetten, afhankelijk van of je het groeperen van metingen in de configuratie hebt ingeschakeld."
+
+msgid "The stored telegrams are processed by the DSMR_BACKEND process and thus can be processed retroactively as well (by design)."
+msgstr "De opgeslagen telegrammen worden verwerkt door het DSMR_BACKEND proces. Daardoor kunnen ze tevens met terugwerkende kracht verwerkt worden."
 
 msgid "Electricity statistics"
 msgstr "Elektriciteitsstatistieken"
@@ -774,8 +795,20 @@ msgstr "Dataverwerking loopt achter"
 msgid "Data processing is on schedule"
 msgstr "Dataverwerking is op schema"
 
+msgid "When telegrams are processed, they are split into electricity and gas (when available) consumption nodes."
+msgstr "Wanneer telegrammen verwerkt worden, splitst de applicatie ze in consumptie nodes voor elektriciteit en gas (wanneer beschikbaar)."
+
+msgid "These consumption nodes are plotted in the graphs displayed on the Dashboard page."
+msgstr "Deze consumptie nodes worden gebruikt in de grafieken van het Dashboard."
+
 msgid "Gas statistics"
 msgstr "Gasstatistieken"
+
+msgid "The consumption nodes reflect the capabilities of your smart meter."
+msgstr "The consumptie nodes reflecteren de gegevensstromen van je slimme meter."
+
+msgid "The status of each of these (three) capabilities are displayed here and they determine which graphs are rendered in the application pages."
+msgstr "De status van elk van deze (drie) gegevensstromen staat hier weergegeven. Deze bepalen tevens welke grafieken allemaal beschikbaar zijn binnen de applicatie."
 
 msgid "Electricity return"
 msgstr "Elektriciteitsteruglevering"
@@ -783,8 +816,14 @@ msgstr "Elektriciteitsteruglevering"
 msgid "Day &amp; hour statistics"
 msgstr "Dag- &amp; uurstatistieken"
 
-msgid "For day totals, archive and trends. Calculated once a day (few hours after midnight)."
-msgstr "Voor dagtotalen, archief en trends. Wordt dagelijks berekend (paar uur na middernacht)."
+msgid "At the end of each day (around 1 a.m.) all consumption nodes will be aggregated to statistics nodes."
+msgstr "Aan het einde van elke dag (rond 1 uur 's nachts) worden alle consumptie nodes geaggregeerd naar statistieken nodes."
+
+msgid "These statistics nodes consist of daily and hourly consumption totals (due to performance)."
+msgstr "Deze statistieken nodes bevatten dagtotalen en uurtotalen van je verbruik (wegens performance)."
+
+msgid "They are used in many pages displaying long term data, such as the Archive, Trends and Compare pages."
+msgstr "Deze worden gebruikt in pagina's die lange termijn gegevens tonen, zoals het Archief, Trends en de Vergelijk pagina's."
 
 msgid "Untracked consumption in the past (and today), is not taken into account."
 msgstr "Ongemeten verbruik in het verleden (inclusief vandaag) wordt buiten beschouwing gelaten."
@@ -1127,6 +1166,9 @@ msgstr "Nederlands"
 
 msgid "English"
 msgstr "Engels"
+
+#~ msgid "For day totals, archive and trends. Calculated once a day (few hours after midnight)."
+#~ msgstr "Voor dagtotalen, archief en trends. Wordt dagelijks berekend (paar uur na middernacht)."
 
 #~ msgid "Actual value delivered to client, since the last hour"
 #~ msgstr "Daadwerkelijke waarde geleverd aan client, vanaf het vorige uur"
