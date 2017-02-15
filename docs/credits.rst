@@ -27,7 +27,7 @@ Listed in any order, sorted by name.
 
 Software
 --------
-Please note and respect their licences, if any, as well.
+Please note and respect their licencesas well, if any.
 
 - `Raspbian <https://www.raspbian.org/>`_
 
@@ -47,7 +47,9 @@ Please note and respect their licences, if any, as well.
 
 - `Director Responsive Admin <http://web-apps.ninja/director-free-responsive-admin-template/>`_
 
-- `Favicon <http://www.flaticon.com/free-icon/eco-energy_25013>`_
+- Favicon made by `Freepik <http://www.freepik.com/>`_ from `flaticon.com <http://www.flaticon.com/free-icon/eco-energy_25013>`_
+
+- `Real Favicon Generator <http://realfavicongenerator.net>`_
 
 - `Bootstrap-datepicker <http://bootstrap-datepicker.readthedocs.org/>`_
 

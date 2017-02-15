@@ -15,10 +15,14 @@
         <link href="{% static 'dsmr_frontend/css/style.css' %}?r=2" rel="stylesheet" type="text/css" />
         <link href="{% static 'dsmr_frontend/css/dsmrreader.css' %}" rel="stylesheet" type="text/css" />
         {% endblock %}
-        
-        <link rel="icon" type="image/png" href="{% static 'dsmr_frontend/img/favicon.png' %}">
-        <link rel="apple-touch-icon" href="{% static 'dsmr_frontend/img/favicon-apple-touch.png' %}"/>
-        
+
+        <link rel="icon" type="image/png" href="{% static 'dsmr_frontend/img/favicons/favicon.png' %}">
+		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'dsmr_frontend/img/favicons/apple-touch-icon.png' %}">
+		<link rel="icon" type="image/png" href="{% static 'dsmr_frontend/img/favicons/favicon-32x32.png' %}" sizes="32x32">
+		<link rel="icon" type="image/png" href="{% static 'dsmr_frontend/img/favicons/favicon-16x16.png' %}" sizes="16x16">
+		<link rel="manifest" href="{% static 'dsmr_frontend/img/favicons/manifest.json' %}">
+		<link rel="mask-icon" href="{% static 'dsmr_frontend/img/favicons/safari-pinned-tab.svg' %}" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
