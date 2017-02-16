@@ -108,7 +108,7 @@ def verify_telegram_checksum(data):
     Verifies telegram by checking it's CRC. Raises exception on failure. DSMR docs state:
     CRC is a CRC16 value calculated over the preceding characters in the data message (from / to ! using the polynomial)
     """
-    matches = re.search(r'^(/[^!]+!)([A-Z0-9]{4,4})', data)
+    matches = re.search(r'^(/[^!]+!)([A-Z0-9]{4})', data)
 
     try:
         content, crc = matches.groups()
