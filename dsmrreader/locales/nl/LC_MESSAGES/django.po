@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DSMR Reader v1.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-09 20:50+0100\n"
-"PO-Revision-Date: 2017-02-08 21:43+0100\n"
+"POT-Creation-Date: 2017-02-19 18:23+0100\n"
+"PO-Revision-Date: 2017-02-19 18:22+0100\n"
 "Last-Translator: Dennis Siemensma <github@dennissiemensma.nl>\n"
 "Language-Team: Dennis Siemensma <github@dennissiemensma.nl>\n"
 "Language: nl\n"
@@ -60,6 +60,12 @@ msgstr "Genereert een generiek signaal dat gebruikt kan worden door plugins voor
 msgid "Forces single run, overriding Infinite Command mixin"
 msgstr "Forceert enkele uitvoer."
 
+msgid "Detailed instructions for restoring a backup can be found here: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#how-do-i-restore-a-database-backup\">FAQ in documentation</a>"
+msgstr "Gedetailleerde instructies voor het herstellen van een back-up kun je hier terugvinden: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#how-do-i-restore-a-database-backup\">FAQ in documentatie</a>"
+
+msgid "Detailed instructions for configuring Dropbox can be found here: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#dropbox-automated-backup-sync\">FAQ in documentation</a>"
+msgstr "Gedetailleerde instructies voor het koppelen met Dropbox kun je hier terugvinden: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#dropbox-automated-backup-sync\">FAQ in documentatie</a>"
+
 msgid "Backup"
 msgstr "Backup"
 
@@ -92,9 +98,6 @@ msgstr "Backupconfiguratie"
 
 msgid "Dropbox access token"
 msgstr "Dropbox 'access token'"
-
-msgid "The access token for your Dropbox account. You should register an App for your own Dropbox account (https://www.dropbox.com/developers/apps). Please select \"Permission type\" named \"App folder\" to restrict unneeded access. Backups will be synced to a dedicated folder in your account. After creating your App you should be able to generate an \"Access token\" and enter it here. For more information, see https://blogs.dropbox.com/developers/2014/05/generate-an-access-token-for-your-own-account"
-msgstr "Het 'access token' voor je Dropbox account. Hiervoor moet je onder je eigen account een applicatie registeren (https://www.dropbox.com/developers/apps). Zorg ervoor dat je bij \"Permission type\" kiest voor de optie \"App folder\" om de gedeelde toegang tot je account te beperken. Backups worden hierdoor in je account op een geïsoleerde locatie gezet. Zodra je in Dropbox een applicatie hebt toegevoegd, kun je een zogeheten \"Access token\" genereren en hier invullen. Zie voor meer informatie: https://blogs.dropbox.com/developers/2014/05/generate-an-access-token-for-your-own-account"
 
 msgid "Latest sync"
 msgstr "Meest recente synchronisatie"
@@ -477,8 +480,11 @@ msgstr "Feedback"
 msgid "View repository on Github"
 msgstr "Bekijk repository op Github"
 
-msgid "Theme by"
-msgstr "Thema door"
+msgid "Credits to"
+msgstr "Credits aan"
+
+msgid "View Hall of Fame"
+msgstr "Bekijk Hall of Fame"
 
 msgid "No data found. Please make sure the datalogger is up and running and the backend process is running as well."
 msgstr "Geen gegevens gevonden. Zorg ervoor dat de datalogger draait, samen met het achtergrondproces."
@@ -855,6 +861,9 @@ msgstr "Elektriciteit 1 teruggeleverd (daltarief)"
 msgid "Electricity 2 returned (high tariff)"
 msgstr "Elektriciteit 2 teruggeleverd (piektarief)"
 
+msgid "Detailed instructions for configuring MinderGas.nl can be found here: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#mindergas-nl-automated-gas-meter-position-export\">FAQ in documentation</a>"
+msgstr "Gedetailleerde instructies voor het koppelen met MinderGas.nl kun je hier terugvinden: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#mindergas-nl-automated-gas-meter-position-export\">FAQ in documentatie</a>"
+
 msgid "MinderGas.nl"
 msgstr "MinderGas.nl"
 
@@ -881,6 +890,9 @@ msgstr "Tijdstip van de volgende gegevensexport. Applicatie werkt dit automatisc
 
 msgid "MinderGas.nl configuration"
 msgstr "MinderGas.nl-configuratie"
+
+msgid "Detailed instructions for configuring notifications can be found here: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#usage-notification-daily-usage-statistics-on-your-smartphone\">FAQ in documentation</a>"
+msgstr "Gedetailleerde instructies voor het instellen van notificaties kun je hier terugvinden: <a href=\"https://dsmr-reader.readthedocs.io/nl/latest/faq.html#usage-notification-daily-usage-statistics-on-your-smartphone\">FAQ in documentatie</a>"
 
 msgid "Usage notification"
 msgstr "Verbruiksnotificatie"
@@ -1167,20 +1179,8 @@ msgstr "Nederlands"
 msgid "English"
 msgstr "Engels"
 
-#~ msgid "For day totals, archive and trends. Calculated once a day (few hours after midnight)."
-#~ msgstr "Voor dagtotalen, archief en trends. Wordt dagelijks berekend (paar uur na middernacht)."
+#~ msgid "The access token for your Dropbox account. You should register an App for your own Dropbox account (https://www.dropbox.com/developers/apps). Please select \"Permission type\" named \"App folder\" to restrict unneeded access. Backups will be synced to a dedicated folder in your account. After creating your App you should be able to generate an \"Access token\" and enter it here. For more information, see https://blogs.dropbox.com/developers/2014/05/generate-an-access-token-for-your-own-account"
+#~ msgstr "Het 'access token' voor je Dropbox account. Hiervoor moet je onder je eigen account een applicatie registeren (https://www.dropbox.com/developers/apps). Zorg ervoor dat je bij \"Permission type\" kiest voor de optie \"App folder\" om de gedeelde toegang tot je account te beperken. Backups worden hierdoor in je account op een geïsoleerde locatie gezet. Zodra je in Dropbox een applicatie hebt toegevoegd, kun je een zogeheten \"Access token\" genereren en hier invullen. Zie voor meer informatie: https://blogs.dropbox.com/developers/2014/05/generate-an-access-token-for-your-own-account"
 
-#~ msgid "Actual value delivered to client, since the last hour"
-#~ msgstr "Daadwerkelijke waarde geleverd aan client, vanaf het vorige uur"
-
-#~ msgid "Track meter statistics"
-#~ msgstr "Houd meterstatistieken bij"
-
-#~ msgid "Whether we should track any extra statistics sent by the meter, such as the number of power failures of voltage dips. Data is not required for core features."
-#~ msgstr "Geeft aan of we extra meterstatistieken moeten bijhouden, zoals het aantal stroomstoringen of spanningsdippen. Deze gegevens zijn niet nodig voor de basisfunctionaliteit."
-
-#~ msgid "Tracking meter statistics is disabled. Enable this feature in the datalogger settings to view statistics."
-#~ msgstr "Meterstatistieken worden niet bijgehouden. Schakel dit bij de dataloggerinstellingen in om de statistieken weer te geven."
-
-#~ msgid "Day statistics (read only)"
-#~ msgstr "Dagstatistieken (alleen lezen)"
+#~ msgid "Theme by"
+#~ msgstr "Thema door"

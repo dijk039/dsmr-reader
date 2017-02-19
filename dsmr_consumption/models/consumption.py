@@ -70,6 +70,7 @@ class ElectricityConsumption(models.Model):
     class Meta:
         default_permissions = tuple()
         verbose_name = _('Electricity consumption')
+        verbose_name_plural = verbose_name
 
 
 class GasConsumption(models.Model):
@@ -95,3 +96,4 @@ class GasConsumption(models.Model):
     class Meta:
         default_permissions = tuple()
         verbose_name = _('Gas consumption')
+        verbose_name_plural = verbose_name

@@ -1,5 +1,5 @@
-Credits
-=======
+Credits / Hall of Fame
+======================
 
 
 Special thanks for supplying code contributions
@@ -25,9 +25,9 @@ Listed in any order, sorted by name.
 - "`WatskeBart <https://github.com/WatskeBart>`_"
 
 
-Software
---------
-Please note and respect their licencesas well, if any.
+Software used
+-------------
+Please note and respect their licences as well, if any. Credits to the following software and projects:
 
 - `Raspbian <https://www.raspbian.org/>`_
 

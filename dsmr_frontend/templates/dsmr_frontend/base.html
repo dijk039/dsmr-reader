@@ -13,7 +13,7 @@
         <link href="{% static 'dsmr_frontend/css/ionicons.min.css' %}" rel="stylesheet" type="text/css" />
         <link href="{% static 'dsmr_frontend/css/lato-font.css' %}" rel='stylesheet' type='text/css'>
         <link href="{% static 'dsmr_frontend/css/style.css' %}?r=2" rel="stylesheet" type="text/css" />
-        <link href="{% static 'dsmr_frontend/css/dsmrreader.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'dsmr_frontend/css/dsmrreader.css' %}?r=2" rel="stylesheet" type="text/css" />
         {% endblock %}
 
         <link rel="icon" type="image/png" href="{% static 'dsmr_frontend/img/favicons/favicon.png' %}">
@@ -140,10 +140,14 @@
                 
                 <div class="row copyright">
                     <small>
-	                    <a href="https://github.com/dennissiemensma/dsmr-reader" target="_blank" title="{% trans 'View repository on Github' %}">Dennis Siemensma</a> &copy; 2015 - {% now "Y" %}
+	                    &copy; <a href="https://nl.linkedin.com/in/dennissiemensma" target="_blank" title="{% trans 'View repository on Github' %}">Dennis Siemensma</a> 2015 - {% now "Y" %}
                     </small>
                     <br />
-                    <small>{% trans "Theme by" %} <a href="http://web-apps.ninja/" target="_blank">web-apps.ninja</a> &copy; 2015</small>
+                    <small>{% trans "Credits to" %}: <a href="https://dsmr-reader.readthedocs.io/en/latest/credits.html" target="_blank">{% trans "View Hall of Fame" %}</a></small>
+                    <br />
+                    <br />
+                    <small><a href="https://github.com/dennissiemensma/dsmr-reader" target="_blank" title="{% trans 'View repository on Github' %}"><img src="{% static 'dsmr_frontend/img/GitHub-Mark-32px.png' %}" /> {% trans 'View repository on Github' %}</a></small>
+                    <small></small>
                 </div>
             </aside>
             <!-- Right side column. Contains the navbar and content of the page -->

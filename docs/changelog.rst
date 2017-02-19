@@ -40,6 +40,7 @@ v1.6.0 - 2017-xx-xx
 - Support for DSMR-firmware v5.0 (`#221 <https://github.com/dennissiemensma/dsmr-reader/issues/221>`_).
 - Redesign: Status page (`#237 <https://github.com/dennissiemensma/dsmr-reader/issues/237>`_).
 - Req: Add iOS icon for Bookmark (`#249 <https://github.com/dennissiemensma/dsmr-reader/issues/249>`_).
+- Docs: Explain settings/options (`#232 <https://github.com/dennissiemensma/dsmr-reader/issues/232>`_).
 
 
 
